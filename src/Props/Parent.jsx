@@ -6,7 +6,7 @@ class Parent extends Component{
     render(){
         return(
             <div>
-                <Child/>
+                <Child dataFromParent = ' Passing Props in Class Component' name = 'Rashika'/>
             </div>
         )
     }

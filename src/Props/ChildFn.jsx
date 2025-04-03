@@ -1,11 +1,11 @@
 
 import React from "react";
 
-function ChildFn(){
+function ChildFn(props){
     return(
         <div>
             <h1>
-                This is Child Component
+                {props.name} is Learning : {props.dataFromParent}
             </h1>
         </div>
     )
