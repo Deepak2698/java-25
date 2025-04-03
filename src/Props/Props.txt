@@ -1,0 +1,11 @@
+
+index.html id=('root') -> index.js(root component) -> App.js(Parent Component)
+
+
+    ************* Data Flow **************
+
+                index.html
+                    |
+                App.js
+                    |
+                    
