@@ -3,7 +3,7 @@ import React from "react";
 let Intro = () => {
 
     const domain = 'React';
-    let OTT = {
+    var OTT = {
         webSeries: 'Squid Game',
         platform: 'Netflix'
     }
