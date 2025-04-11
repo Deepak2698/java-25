@@ -1,9 +1,12 @@
 import './App.css';
+import Routing from './Routing/Routing';
+import LifeCycle from './view/LifeCycle';
 // import ChildFn from './Props/ChildFn';
 // import Parent from './Props/Parent';
 // import ParentFn from './Props/ParentFn';
 // import ClassComponent from './view/ClassComponent';
-import Counter from './view/Counter';
+// import Counter from './view/Counter';
+import ParentProps from './view/ParentProps';
 // import Events from './view/Events';
 // import Functional from './view/Functional';
 // import States from './view/States';
@@ -14,7 +17,7 @@ function App() {
   
   return (
     <div >
-      <Counter/>
+     <Routing/>
     </div>
   );
 }

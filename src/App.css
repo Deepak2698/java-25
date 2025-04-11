@@ -1,3 +1,18 @@
 .bg-color{
   background-color: antiquewhite;
 }
+
+.nav-bg{
+  background-color: rgba(0,0,0,0.5);
+  height: 50px;
+}
+
+.list{
+  list-style-type: none;
+  display: flex;
+  margin-left: 1500px;
+}
+
+.list li{
+  margin: 10px;
+}
