@@ -1,4 +1,5 @@
 import './App.css';
+import Products from './MusicComponents/Products';
 import Routing from './Routing/Routing';
 import LifeCycle from './view/LifeCycle';
 // import ChildFn from './Props/ChildFn';
@@ -17,7 +18,7 @@ function App() {
   
   return (
     <div >
-     <Routing/>
+     <Products/>
     </div>
   );
 }
