@@ -1,8 +1,9 @@
 import React from "react";
 import { Route,  BrowserRouter as Router, Routes , Link} from 'react-router-dom';
 import Home from "./Home";
-import Products from "./Products";
+
 import ContactUs from "./ContactUs";
+import Products from "../MusicComponents/Products";
 
 export default function Routing(){
     return(
