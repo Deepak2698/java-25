@@ -17,7 +17,7 @@ class Products extends Component {
     render(){
           return(
             <div>
-                <h2>{this.state.title}</h2>
+                <h1 className='alignment'>{this.state.title}</h1>
                 <ProductList prodlist={this.state.products}/>  {/*pass data from .json file to ProductList component prop  */}
             </div>
         )

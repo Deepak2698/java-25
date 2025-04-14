@@ -4,6 +4,7 @@ import Home from "./Home";
 
 import ContactUs from "./ContactUs";
 import Products from "../MusicComponents/Products";
+import Demo from "./Demo";
 
 export default function Routing(){
     return(
@@ -33,6 +34,7 @@ export default function Routing(){
 
             <Routes>
                 <Route path="/" element = {<Home/>}/>
+                <Route path="/demo" element={<Demo/>}/>
                 <Route path="/products" element={<Products/>}/>
                 <Route path="/contact" element = {<ContactUs/>}/>
             </Routes>

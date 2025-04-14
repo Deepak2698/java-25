@@ -16,3 +16,11 @@
 .list li{
   margin: 10px;
 }
+
+.alignment{
+  text-align: center;
+}
+
+.banner{
+  border: 1px solid red;
+}

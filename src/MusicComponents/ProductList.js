@@ -18,7 +18,7 @@ const ProductList = (prodlist) => {         //functional component that accepts 
                             <span className="topTemp">{data.name}</span>
                             </div>
                             <div className="card-body">
-                            <span className="max">Rs. {data.price}</span>  
+                            <span className="max">₹ {data.price}</span>  
                                 <h4 className="card-title">{data.type}</h4>
                                 <div className="card-text">
                                     <p className="day">{data.description}</p>
