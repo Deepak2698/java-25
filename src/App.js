@@ -1,4 +1,6 @@
 import './App.css';
+import States from './Hooks/States';
+import States1 from './Hooks/States1';
 import Products from './MusicComponents/Products';
 import Routing from './Routing/Routing';
 import LifeCycle from './view/LifeCycle';
@@ -18,7 +20,7 @@ function App() {
   
   return (
     <div >
-     <Routing/>
+      <States1/>
     </div>
   );
 }
